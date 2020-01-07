@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         newUser.setValue("0123456789", forKey: "password")
         do {
             try context.save()
-            print("User Data Sucessfully Saved In CoreData")
+            print("User Data Sucessfully Saved in CoreData")
         } catch {
             print("Unable to save User data in CoreData")
         }
